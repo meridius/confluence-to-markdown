@@ -26,6 +26,14 @@ In the converter's directory:
 npm run start <pathResource> <pathResult>
 ```
 
+### Using the Docker image
+
+All you need installed on your computer is Docker. Then use the following command to run you conversion (this example
+shares the current directory - `$PWD` on linux and Mac - and convert from the export subdirectory to the docs directory):
+
+```
+docker run -it -v $PWD:$PWD meridius/confluence-to-markdown npm run start $PWD/export $PWD/docs
+```
 
 ### Parameters
 
