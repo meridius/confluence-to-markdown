@@ -12,7 +12,7 @@ class App
   ]
 
   @extraOptions = [
-    '--atx-headers' # Setext-style headers (underlined) | ATX-style headers (prefixed with hashes)
+    '--markdown-headings=atx' # Setext-style headers (underlined) | ATX-style headers (prefixed with hashes)
   ]
 
   ###*
